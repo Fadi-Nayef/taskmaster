@@ -11,14 +11,14 @@
 
     <TextView
         android:id="@+id/textview_third"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tasks"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="141dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="92dp"
+        android:text="My Tasks"
         app:layout_constraintEnd_toEndOf="parent"
-        />
-
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,7 +15,7 @@
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
         <action
-            android:id="@+id/action_SecondFragment_to_Third"
+            android:id="@+id/action_F_to_Third"
             app:destination="@+id/Third"
             />
     </fragment>
@@ -35,5 +35,9 @@
     android:name="com.example.taskmaster.ThirdFragment"
     android:label="Third Fragment label"
     tools:layout="@layout/fragment_third"
-    />
+    >
+    <action
+        android:id="@+id/action_Third_to_FirstFragment"
+        app:destination="@id/FirstFragment" />
+</fragment>
 </navigation>

@@ -9,6 +9,12 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="third_fragment_lable" />
+    <string name="third_fragment_label" />
     <string name="add_task" />
+    <string name="Back" />
+    <string name="All_Tasks" />
+    <string name="my_tasks">my Tasks</string>
+    <string name="all_task">All Task</string>
+    <string name="task_description">Task Description</string>
+    <string name="task_title">task_title</string>
 </resources>
