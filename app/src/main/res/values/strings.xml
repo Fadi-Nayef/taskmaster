@@ -17,4 +17,10 @@
     <string name="all_task">All Task</string>
     <string name="task_description">Task Description</string>
     <string name="task_title">task_title</string>
+    <string name="title_activity_task_details">TaskDetails</string>
+    <string name="title">Title</string>
+    <string name="task_desc"> Lorem Ipsum</string>
+    <string name="first_task">first task</string>
+    <string name="third_task">third task</string>
+    <string name="second_task">second task</string>
 </resources>

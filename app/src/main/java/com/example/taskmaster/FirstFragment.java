@@ -35,17 +35,23 @@ public class FirstFragment extends Fragment {
                 NavHostFragment.findNavController(FirstFragment.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
             }
+
         });
-
-
-
-            binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
+        binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     NavHostFragment.findNavController(FirstFragment.this)
                             .navigate(R.id.action_F_to_Third);
                 }
             });
+//        binding.firstTask.setOnClickListener(new View.OnClickListener() {
+//
+//            }
+//        });
+
+        }
+        public void taskHandler(View v ){
+
         }
     @Override
     public void onDestroyView() {

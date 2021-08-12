@@ -39,4 +39,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_third"
         tools:ignore="NotSibling" />
+
+    <Button
+        android:id="@+id/first_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_task"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="577dp" />
+
+    <Button
+        android:id="@+id/second_task"
+        android:layout_width="112dp"
+        android:layout_height="47dp"
+        android:text="@string/second_task"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="578dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/third_task"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        android:text="@string/third_task"
+        app:layout_anchor="@+id/third_task"
+        app:layout_anchorGravity="center"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="578dp"
+        tools:ignore="MissingConstraints,NotSibling" />
 </androidx.constraintlayout.widget.ConstraintLayout>
